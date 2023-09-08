@@ -19,8 +19,9 @@ int main(void)
     {
         putchar(alphabets[i]);
 	putchar(toupper(alphabets[i]));
-	putchar('\n');
     }
-
+    
+    putchar('\n');
+    
     return 0;
 }
