@@ -11,7 +11,7 @@ int main(void)
 	long unsigned int i;
 	for (i = 0; i < sizeof(alphabets); i++)
 	{
-		putchar(alphabets[i]);
+		putchar(alphabets[i]\n);
 	}
 
 	return (0);
