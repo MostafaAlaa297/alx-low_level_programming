@@ -24,7 +24,7 @@ int main(void)
 	{
 		putchar(toupper(alphabets[i]));
 	}
-
+	
 	putchar('\n');
 	
 	return (0);
