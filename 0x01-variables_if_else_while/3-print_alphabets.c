@@ -8,24 +8,24 @@
  */
 int main(void)
 {
-    char alphabets[] = {
-        'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i',
-        'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r',
-        's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
-    };
+	char alphabets[] = {
+		'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i',
+		'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r',
+		's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
+	};
 
-    unsigned long i;
-    for (i = 0; i < sizeof(alphabets); i++)
-    {
-        putchar(alphabets[i]);
-    }
+	unsigned long i;
+	for (i = 0; i < sizeof(alphabets); i++)
+	{
+		putchar(alphabets[i]);
+	}
 
-    for (i = 0; i < sizeof(alphabets); i++)
-    {
-        putchar(toupper(alphabets[i]));
-    }
-    
-    putchar('\n');
-    
-    return 0;
+	for (i = 0; i < sizeof(alphabets); i++)
+	{
+		putchar(toupper(alphabets[i]));
+	}
+
+	putchar('\n');
+	
+	return (0);
 }
