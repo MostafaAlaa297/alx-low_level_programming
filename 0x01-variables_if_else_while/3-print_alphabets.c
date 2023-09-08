@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 
 /**
  * main - Entry Point
@@ -11,7 +10,7 @@ int main(void)
     char alphabets[] = {
         'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i',
         'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r',
-        's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '\n'
+        's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
     };
 
     unsigned long i;
@@ -19,6 +18,7 @@ int main(void)
     {
         putchar(alphabets[i]);
 	putchar(toupper(alphabets[i]));
+	putchar('\n');
     }
 
     return 0;
