@@ -20,6 +20,6 @@ int main(void)
 		else
 			putchar(alphabets[i]);
 	}
-	
+
 	return (0);
 }
