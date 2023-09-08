@@ -13,6 +13,7 @@ int main(void)
 	};
 
 	unsigned long int i;
+
 	for (i = 0; i < sizeof(alphabets); i++)
 	{
 		putchar(alphabets[i]);
