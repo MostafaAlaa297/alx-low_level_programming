@@ -1,9 +1,16 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
+/**
+ * main - Entry Point
+ *
+ * This function is the entry point of the program.
+ * It generates a random number and determines whether it is positive, zero, or negative.
+ *
+ * Return: Always 0 (Success)
+ */
 
-/* betty style doc for function main goes there */
+
 int main(void)
 {
 	int n;
@@ -11,7 +18,6 @@ int main(void)
 	srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
