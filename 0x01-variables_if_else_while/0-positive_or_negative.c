@@ -5,13 +5,11 @@
  * main - Entry Point
  *
  * This function is the entry point of the program.
- * It generates a random number 
+ * It generates a random number
  * and determines whether it is positive, zero, or negative.
  *
  * Return: Always 0 (Success)
  */
-
-
 int main(void)
 {
 	int n;
