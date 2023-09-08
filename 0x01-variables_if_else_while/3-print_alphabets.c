@@ -15,6 +15,7 @@ int main(void)
 	};
 
 	unsigned long i;
+
 	for (i = 0; i < sizeof(alphabets); i++)
 	{
 		putchar(alphabets[i]);
@@ -24,8 +25,8 @@ int main(void)
 	{
 		putchar(toupper(alphabets[i]));
 	}
-	
+
 	putchar('\n');
-	
+
 	return (0);
 }
