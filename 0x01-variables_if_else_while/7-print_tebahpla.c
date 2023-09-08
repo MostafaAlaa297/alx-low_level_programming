@@ -12,7 +12,7 @@ int main(void)
 			    's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 	int i;
 
-	for (i = sizeof(alphabets)-1; i <= 0; i--)
+	for (i = sizeof(alphabets)-1; i >= 0; i--)
 	{
 		putchar(alphabets[i]);
 	}
