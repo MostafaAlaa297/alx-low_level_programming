@@ -16,7 +16,7 @@ int main(void)
 		putchar(' ');
 	}
 
-	putchar(9 + '0');
+	putchar(9 + " 0");
 
 	return (0);
 }
