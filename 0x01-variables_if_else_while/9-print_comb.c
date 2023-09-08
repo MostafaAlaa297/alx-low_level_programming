@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; i < sizeof(nums) - 1; i++)
+	for (i = 0; i < 9; i++)
 	{
 		putchar(nums[i] + '0');
 		putchar(',');
