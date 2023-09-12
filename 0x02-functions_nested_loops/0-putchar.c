@@ -1,16 +1,13 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * main - Prints "_putchar" to stdout
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: Always 0.
  */
 
 int main(void)
 {
-	/* Print each character using _putchar */
 	_putchar('_'); /* Print underscore */
 	_putchar('p'); /* Print 'p' */
 	_putchar('u'); /* Print 'u' */
@@ -23,3 +20,4 @@ int main(void)
 
 	return (0);
 }
+
