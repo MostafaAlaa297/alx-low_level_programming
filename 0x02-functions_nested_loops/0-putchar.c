@@ -10,15 +10,16 @@
 
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	/* Print each character using _putchar */
+	_putchar('_'); /* Print underscore */
+	_putchar('p'); /* Print 'p' */
+	_putchar('u'); /* Print 'u' */
+	_putchar('t'); /* Print 't' */
+	_putchar('c'); /* Print 'c' */
+	_putchar('h'); /* Print 'h' */
+	_putchar('a'); /* Print 'a' */
+	_putchar('r'); /* Print 'r' */
+	_putchar('\n'); /* Print newline character */
 
 	return (0);
 }
