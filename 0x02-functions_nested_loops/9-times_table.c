@@ -27,7 +27,7 @@ void times_table(void)
 					_putchar(' ');
 				}
 				_putchar(product + '0');
-			} 
+			}
 			else
 			{
 				_putchar((product / 10) + '0');
