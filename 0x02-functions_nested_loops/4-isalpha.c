@@ -4,7 +4,6 @@
  *
  * Return: 1 if c is lowercase, 0 otherwise
  */
-/* Function to check is a char is alphabet */
 int _isalpha(int c)
 {
 	/* If conditional to check for lower and capital */
