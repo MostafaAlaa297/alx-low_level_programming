@@ -4,11 +4,12 @@
  *
  * Return: 1 if c is lowercase, 0 otherwise
  */
+/* Function to check is a char is alphabet */
 int _isalpha(int c)
 {
-        if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-                return (1);
-        else
-                return (0);
+	/* If conditional to check for lower and capital */
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+		return (1);
+	else
+		return (0);
 }
-
