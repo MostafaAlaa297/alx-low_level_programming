@@ -19,6 +19,9 @@ void times_table(void)
 
 			/* Prints table nums */
 			if (product < 10) {
+				if (j != 0) {
+					_putchar(' ');
+				}
 				_putchar(product + '0');
 			} else {
 				_putchar((product / 10) + '0');
