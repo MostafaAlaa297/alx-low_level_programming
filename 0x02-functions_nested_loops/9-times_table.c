@@ -21,7 +21,6 @@ void times_table(void)
 			if (product < 10) {
 				if (j != 0) {
 					_putchar(' ');
-					_putchar(' ');
 				}
 				_putchar(product + '0');
 			} else {
@@ -29,7 +28,7 @@ void times_table(void)
 				_putchar((product % 10) + '0');
 			}
 
-			/* Prints comma to seperate nums */
+			/* Prints comma to separate nums */
 			if (j < 9) {
 				_putchar(',');
 				_putchar(' ');
