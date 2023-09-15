@@ -1,21 +1,11 @@
 #include <stdio.h>
 
-/**
- * fizz_buzz - prints fizz instead of the multiples of 3
- * and buzz instead of the multiples of 5
- *
- * Return: void
- */ 
-
-int main(void)
-{
-	int i;
-
-	for (i = 1; i <= 100; i++)
+int main() {
+	for (int i = 1; i <= 100; i++)
 	{
-		if (i % 3 == 0 && i % 5 == 0)
+    		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("FizzBuzz ");
+      			printf("FizzBuzz ");
 		}
 		else if (i % 3 == 0)
 		{
@@ -30,7 +20,7 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
-	printf("\n");
 
+	printf("\n");
 	return (0);
 }
