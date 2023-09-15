@@ -1,6 +1,6 @@
-
 /**
  * isupper - checks for upper case chars
+ *
  * @c: the character to check
  *
  * Return: 0 if uppercase and 1 if not
