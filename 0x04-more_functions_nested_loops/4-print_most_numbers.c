@@ -2,10 +2,9 @@
 
 /**
  * print_numbers - Prints numbers from 0 to 9
- * but not 2 or 4
- * then add newline
+ * but not 2 or 4 then add newline
  *
- * Return: void
+ * @return: void
  */
 
 void print_most_numbers(void)
