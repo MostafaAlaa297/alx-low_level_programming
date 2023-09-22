@@ -1,5 +1,5 @@
 /**
- * strncat - Concatenates two strings
+ * _strncat - Concatenates two strings
  * but with specified number of bytes of the second string
  * @dest: The string to concatenate to
  * @src: The string to concatenate
