@@ -1,7 +1,7 @@
 /**
  * _strcmp - Compares two strings
  * @s1: First string
- * s@: Second string
+ * @s2: Second string
  *
  * Return: An integer indicating the result of the comparison
  */
