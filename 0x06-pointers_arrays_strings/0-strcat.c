@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcat - concatenates two strings
+ * _strcat - concatenates two strings
  * @dest: the string to concatenate to
  * @src: the string to concatenate
  *
@@ -23,6 +23,6 @@ char *_strcat(char *dest, char *src)
 	}
 
 	*dest = '\0';
-
+	
 	return (start);
 }
