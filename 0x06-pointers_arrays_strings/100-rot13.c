@@ -17,7 +17,7 @@ char *rot13(char *str)
 	char *encoded = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 	
 	int i, j;
-
+	
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		for (j = 0; rot13[j] != '\0'; j++)
