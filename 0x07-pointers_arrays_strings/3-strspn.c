@@ -1,7 +1,7 @@
 /**
  * _strspn - Gets the length of a prefix substring
  * @s: String to be scanned
- * @acept: String containing chracter to match
+ * @accept: String containing chracter to match
  *
  * Return: Number of bytes in the initial segment of s
  * which consist only of bytes from accept
@@ -23,7 +23,7 @@ unsigned int _strspn(char *s, char *accept)
 			}
 		}
 		if (accept[j] == '\0')
-		break;
+			break;
 	}
-	return count;
+	return (count);
 }
