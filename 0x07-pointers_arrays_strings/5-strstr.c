@@ -1,7 +1,8 @@
 #include <stddef.h>
 
 /**
- * _strstr - Finds the first occurrence of the substring needle in the string haystack.
+ * _strstr - Finds the first occurrence of
+ * the substring needle in the string haystack.
  * The terminating null bytes (\0) are not compared
  * @haystack: The string to search into
  * @needle: The string to find
@@ -18,17 +19,17 @@ char *_strstr(char *haystack, char *needle)
 		h = haystack;
 		n = needle;
 
-	while (*n && *haystack && *haystack == *n)
-	{
-		haystack++;
-		n++;
+		while (*n && *haystack && *haystack == *n)
+		{
+			haystack++;
+			n++;
+		}
+
+		if (!*n)
+			return (h);
+
+		haystack = h + 1;
 	}
 
-	if (!*n)
-	return h;
-
-	haystack = h + 1;
-	}
-
-	return NULL;
+	return (NULL);
 }
