@@ -17,8 +17,8 @@ int check_prime(int n, int divisor)
 
 	if (n % divisor == 0)
 	{
-		/* n is not prime because it's divisible by
-		 * a number other than 1 and itself */
+		/* n is not prime because it's divisible by */
+		/* a number other than 1 and itself */
 		return (0);
 	}
 
