@@ -29,6 +29,7 @@ int main(int argc, char *argv[])
 		
 		if (mul == 0)
 			_putchar('0');
+		
 		while (mul > 0)
 		{
 			buffer[i++] = (mul % 10) + '0';
