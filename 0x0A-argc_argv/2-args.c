@@ -10,10 +10,11 @@
  */
 int main(int argc, char *argv[])
 {
-	while(argc--)
+	while (argc--)
 	{
 		char *temp = *argv;
-		while(*temp)
+
+		while (*temp)
 		{
 			_putchar(*temp);
 			temp++;
