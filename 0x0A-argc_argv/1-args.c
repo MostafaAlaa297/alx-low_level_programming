@@ -8,10 +8,10 @@
  *
  * Return: 0 on success and 1 otherwise
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	(void)argv;
-	_putchar(argc + '0');
+	_putchar((argc - 1) + '0');
 	_putchar('\n');
 
 	exit(EXIT_SUCCESS);
