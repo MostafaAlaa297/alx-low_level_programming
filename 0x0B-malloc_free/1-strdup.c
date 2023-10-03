@@ -15,11 +15,11 @@ char *_strdup(char *str)
 	int i;
 	char *s;
 
-	/*if (str == NULL)
+	if (str == NULL)
 	{
-		printf("failed to allocate memory\n");
+		/*printf("failed to allocate memory\n");*/
 		return (NULL);
-	}*/
+	}
 
 	while (str[size] != '\0')
 		size++;
@@ -28,7 +28,7 @@ char *_strdup(char *str)
 
 	if (s == NULL)
 	{
-		printf("failed to allocate memory\n");
+		/*printf("failed to allocate memory\n");*/
 		return (NULL);
 	}
 
