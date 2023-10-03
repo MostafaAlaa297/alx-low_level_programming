@@ -28,7 +28,7 @@ char *_strdup(char *str)
 
 	if (s == NULL)
 	{
-		printf("Can't allocate %d bytes\n", (size + 1));
+		printf("failed to allocate memory\n");
 		return (NULL);
 	}
 
