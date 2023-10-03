@@ -15,16 +15,22 @@ char *_strdup(char *str)
 	int i;
 	char *s;
 
+	if (str == NULL)
+	{
+		print("Failed to alocate memory\n");
+		return (NULL);
+	}
+
 	while (str[size] != '\0')
 		size++;
 
 	s = malloc((size + 1) * sizeof(char));
 
 	if (s == NULL)
-        {
-            printf("Can't allocate %d bytes\n", (size + 1));
-            return (NULL);
-        }
+	{
+		printf("Can't allocate %d bytes\n", (size + 1));
+		return (NULL);
+	}
 
 	i = 0;
 	while (i < size)
