@@ -9,17 +9,19 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int counter = 0;
+	int len1 = 0, len2 = 0, total_len;
 	char *temp;
 	int i, j;
 
-	while (s1[counter] != '\0')
-		counter++;
+	while (s1[len1] != '\0')
+		len1++;
 
-	while (s2[counter] != '\0')
-		counter++;
+	while (s2[len2] != '\0')
+		len2++;
 
-	temp = malloc((counter + 1) * sizeof(char));
+	total_len = len1 + len2;
+
+	temp = malloc((total_len + 1) * sizeof(char));
 	
 	if (temp == NULL)
 		return (NULL);
