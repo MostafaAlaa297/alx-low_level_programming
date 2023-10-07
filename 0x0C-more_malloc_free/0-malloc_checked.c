@@ -11,11 +11,7 @@
 void *malloc_checked(unsigned int b)
 {
 	void *ptr = malloc(b);
-	if (!ptr)
-	{
-		_putchar(9 + '0');
-		_putchar(8 + '0');
-		_putchar('\n');
-	}
+	if (ptr == NULL)
+		exit(98);
 	return (ptr);
 }
