@@ -1,5 +1,7 @@
+#ifndef DOG_H
+#define DOG_H
 /**
- * strut dog - short descreption
+ * struct dog - short descreption
  * @name: The name of the dog
  * @age: The age of the dog
  * @owner: The owner's name
@@ -7,9 +9,13 @@
  * Descrition: Long description
  */
 
-typedef struct dog
+struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-} dog_info;
+};
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
+
+#endif
