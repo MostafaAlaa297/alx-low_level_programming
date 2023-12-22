@@ -14,6 +14,6 @@ unsigned long int key_index(const unsigned char *key, unsigned long int size)
 
 	if (index > size)
 		return (-1);
-	
+
 	return (index);
 }
