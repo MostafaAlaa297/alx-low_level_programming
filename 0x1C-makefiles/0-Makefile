@@ -1,11 +1,5 @@
 # Usage:
 # make	# compile all binary
-# make clean	# removes ALL binaries and objects
 
-all: school
-
-school:
+all: 0x1B.c/main.c 0x1B.c/school.c
 	gcc 0x1B.c/main.c 0x1B.c/school.c -o school
-
-clean:
-	rm -f school
