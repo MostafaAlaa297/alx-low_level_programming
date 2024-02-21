@@ -1,0 +1,12 @@
+CC = gcc
+SRC = 0x1B.c/main.c 0x1B.c/school.c
+OBJ = $(SRC: 0x1B.c/%.c=0x1B.c/%.o)
+NAME = school
+
+all: $(NAME)
+	
+$(NAME): $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+clean:
+	rm -f $(NAME)
