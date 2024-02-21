@@ -1,5 +1,6 @@
 # Usage:
 # make	# compile all binary
+# make clean	# removes ALL binaries and objects
 
 all: school
 
