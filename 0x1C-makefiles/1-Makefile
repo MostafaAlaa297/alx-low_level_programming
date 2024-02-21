@@ -1,6 +1,6 @@
 CC = gcc
-SRC := 0x1B.c/main.c 0x1B.c/school.c
+SRC = 0x1B.c/main.c 0x1B.c/school.c
 
-all: ${SRC}
-	${CC} ${SRC} -o school
+all: $(SRC)
+	$(CC) $(SRC) -o school
 
