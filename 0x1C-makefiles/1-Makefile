@@ -1,6 +1,11 @@
 CC = gcc
 SRC = 0x1B.c/main.c 0x1B.c/school.c
+EX = school
 
-all: $(SRC)
+all: $(EX)
+	
+$(EX): $(SRC)
 	$(CC) $(SRC) -o school
 
+clean:
+	rm -f $(EX)
